@@ -1,7 +1,9 @@
-body {
-    display: flex;
-    flex-direction:column;
+*{
+    background-color: gray;
+    box-sizing: border-box;
     line-height: 1;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -22,4 +24,23 @@ header {
     justify-content: space-between;
     min-width: 300px;
     position: fixed;
+}
+
+nav a {
+    background-color: unset;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
 }
