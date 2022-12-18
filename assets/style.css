@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction:column;
+    line-height: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: green;
+    color: white;
+  }
+
+.h1 {
+    font-size: 200%;
+}
+
+.top {
+    display:flex;
+    justify-content: space-between;
+    min-width: 300px;
+    position: fixed;
+}
