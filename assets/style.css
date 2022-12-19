@@ -11,36 +11,43 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: green;
     color: white;
-  }
-
-.h1 {
-    font-size: 200%;
+    background-color: green;
 }
 
-.top {
-    display:flex;
-    justify-content: space-between;
-    min-width: 300px;
-    position: fixed;
+nav {
+    background-color: green;
+    
+}
+
+nav h1 {
+    font-size: 200%;
+    text-align: left;
+    background-color: green;
 }
 
 nav a {
-    background-color: unset;
+    font-size: 150%;
+    background-color: green;
     color: white;
     font-weight: bold;
     text-decoration: none;
 }
 
 nav ul {
+    background-color: green;
     display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+    text-align: left;
+    justify-content: right;
+    min-width: 100px;
 }
 
 body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
+}
+
+section{
+    color: white;
 }
