@@ -47,9 +47,27 @@
     color: white;
 }
 
+.profile{
+    width: 80%;
+}
+
+.profile > img {
+    width: 80%;
+    border-radius: 90px;
+}
+
 .side > div.about {
     display: flex;
     height: 100px;
+}
+
+.images{
+    width: 80%;
+}
+
+.images > img{
+    width:20%;
+    text-align: center;
 }
 
 .side > div.work {
@@ -79,6 +97,7 @@
     display:flex;
     height: 600px;
 }
+
 
 .body > article.contact {
     display: flex;
