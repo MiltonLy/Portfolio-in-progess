@@ -15,31 +15,45 @@ header {
     background-color: green;
 }
 
-nav {
+.navbar {
+    overflow: hidden;
+    text-align: right;
     background-color: green;
-    
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
-nav h1 {
-    font-size: 200%;
-    text-align: left;
-    background-color: green;
-}
-
-nav a {
-    font-size: 150%;
-    background-color: green;
+.navbar a{
+    display: block;
     color: white;
-    font-weight: bold;
+    background-color: green;
+    text-align: right;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
-nav ul {
-    background-color: green;
+.navbar a.Name{
+    float: left;
+}
+
+.navbar a:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+.row {
+    display: -ms-flexbox;
     display: flex;
-    text-align: left;
-    justify-content: right;
-    min-width: 100px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.side {
+    -ms-flex: 30%;
+    flex: 30%;
+    padding: 20px;
+    color: white;
 }
 
 body {
