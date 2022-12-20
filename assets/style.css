@@ -47,6 +47,21 @@
     color: white;
 }
 
+.side > div.about {
+    display: flex;
+    height: 100px;
+}
+
+.side > div.werk {
+    display: flex;
+    height: 600px;
+}
+
+.side > div.contact {
+    display: flex;
+    height: 100px;
+}
+
 .body {
     
     -ms-flex: 90%;
