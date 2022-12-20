@@ -9,8 +9,8 @@
 .navbar {
     overflow: hidden;
     background-color: green;
-    position: sticky;
-    position: -webkit-sticky;
+    position: relative;
+    width: 100%;
     top: 0;
 }
 
