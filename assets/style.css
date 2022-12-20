@@ -62,17 +62,24 @@
 }
 
 .images{
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.images img{
-    flex-basis: 50%;
+.images a {
+    display: contents;
+}
+
+.images a img:hover {
+    max-width: 45%;
+}
+
+.images a img{
+    flex-basis: 20%;
     object-fit: cover;
     max-width: 40%;
-    max-height: 40%;
     padding: 5px;
 }
 
