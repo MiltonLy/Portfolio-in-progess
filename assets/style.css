@@ -52,7 +52,7 @@
     height: 100px;
 }
 
-.side > div.werk {
+.side > div.work {
     display: flex;
     height: 600px;
 }
@@ -63,12 +63,26 @@
 }
 
 .body {
-    
     -ms-flex: 90%;
     flex: 90%;
     padding: 20px;
     color: white;
     
+}
+
+.body > article.about {
+    display: flex;
+    height: 100px;
+}
+
+.body > article.work {
+    display:flex;
+    height: 600px;
+}
+
+.body > article.contact {
+    display: flex;
+    height: 100px;
 }
 
 @media screen and (max-width: 700px) {
